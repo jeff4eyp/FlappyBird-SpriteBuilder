@@ -34,6 +34,7 @@
  
  @warning The native text field is only translated, no other transformations are applied. The text field may not be displayed correctly if rotated or scaled.
  */
+
 @interface CCTextField : CCControl <CCPlatformTextFieldDelegate>
 {
     CCSprite9Slice* _background;
